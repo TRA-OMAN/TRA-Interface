@@ -1,0 +1,463 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+}
+
+
+.imglogo{
+    top: 35px;
+    left: 1437px;
+    width: 349px;
+    height: 106px;
+    padding-left: 30px;
+}
+
+a{
+
+    top: 52px;
+    left: 1135px;
+    width: 152px;
+    height: 67px;
+    font: normal normal normal 35px/67px Droid Arabic Kufi;
+    color: #0026FF;
+}
+
+
+.backGI{
+    background: url(../images/TRABULDING.jpg) no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 883px;
+}
+
+
+.TopParagra{
+    top: 100px;
+    left: 97px;
+    width: 630px;
+    height: 110px;
+    text-align: right;
+    font: normal normal normal 58px/111px Droid Arabic Kufi;
+    color: #2745F2;
+    text-shadow: 0px 3px 6px #FFFFFF;
+    position: absolute;
+}
+
+.Confident{
+    top: 216px;
+    left: 433px;
+    width: 239px;
+    text-align: right;
+    font: normal normal normal 58px/111px Droid Arabic Kufi;
+    color: #2745F2;
+    position: absolute;
+}
+
+
+
+.whoAreWe {
+    font: normal normal normal 30px/40px Droid Arabic Kufi;
+    top: 242px;
+    left: 296px;
+    width: 170px;
+    height: 57px;
+    background: #2745F2;
+    border:none;
+    border-radius: 7px;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.bluesection {
+    display: flex;
+    background: #2745F2;
+}
+
+#outer {
+    margin: 40px auto;
+}
+.inner {
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+}
+.icon{
+    color:white;
+    text-align: center;
+}
+
+.inner h3{
+    padding-right:   30px;
+    font: normal normal normal 35px/67px Droid Arabic Kufi;
+}
+.hide {
+    display: none;
+}
+
+#Activity:hover + .hide {
+    display: block;
+    color: white;
+    border: 3px black;
+    background: black;
+    text-align: center;
+
+
+}
+
+
+.sec-aboutus h2{
+    text-align:center;
+    padding: 50px;
+    color: #000000;
+    font: normal normal bold 40px/74px Janna LT;
+    margin: 0;
+
+}
+
+.container-fluid pricingTable pt-90{
+    position: relative;
+}
+#monthly{
+    font: normal normal normal 26px/49px Droid Arabic Kufi;
+    border-left: none;
+    border-radius: 18px;
+    width:180px;
+    background: #F2F2F2F;
+    color:  #2745F2;
+    border: 1px solid #6B7FF2;
+}
+#yearly{
+    font: normal normal normal 26px/49px Droid Arabic Kufi;
+    border-radius: 18px;
+    width:180px;
+    background: #2745F2;
+    color: #FFFFFF;
+    border: 1px solid #707070;
+}
+
+#CONTAINER1{
+    text-align: center;
+    position: absolute;
+    left:-387.5px;
+    border-radius: 3px;
+
+}
+#monthly i{
+    padding-left:  10px;
+
+}
+#yearly i{
+    padding-left: 10px;
+}
+
+
+#provider{
+    padding: 0;
+    width: 868px;
+    height: 810px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #415CF2;
+    border-radius: 20px;
+    opacity: 1;
+    margin-top: 100px;
+    position: relative;
+}
+
+.txt2{
+    margin: 40.49px 261.18px;
+    top: 1820px;
+    left: 772px;
+    width: 364px;
+    height: 65px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 34px/65px Droid Arabic Kufi;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #2745F2;
+    opacity: 1;
+}
+
+#categ{
+    top: 1926px;
+    left: 535px;
+    width: 100%;
+    height: 106px;
+    /* UI Properties */
+    background: #BDC5F26B 0% 0% no-repeat padding-box;
+    border: 1px solid #2745F2;
+    opacity: 1;
+}
+.text3{
+    padding-left: 45px;
+    margin: 23.6px;
+    left: 1160px;
+    width: 166px;
+    height: 59px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 31px/59px Droid Arabic Kufi;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+.text4{
+    margin: 23.6px;
+    left: 870px;
+    width: 159px;
+    height: 59px;
+    /* UI Properties */
+    text-align: right;
+    font: normal normal normal 31px/59px Droid Arabic Kufi;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+
+.text5{
+    margin: 23.6px;
+    left: 580px;
+    width: 160px;
+    height: 59px;
+    /* UI Properties */
+    text-align: right;
+    font: normal normal normal 31px/59px Droid Arabic Kufi;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+
+#categ{
+    --bs-gutter-x:none;
+}
+
+
+
+.containerMarketing{
+    margin-top: 80px;
+    position: relative;
+    padding: 80px 80px 0 80px;
+
+
+}
+
+#vodafone{
+    background: #2745F2 0% 0% no-repeat padding-box;
+    border: 1px solid #415CF2;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font: normal normal normal 56px/106px Droid Arabic Kufi;
+    height: 400px;
+    margin-right: 450px;
+    top: -600px;
+    left: -32px;
+    position: absolute;
+
+}
+#vodafone img{
+    padding-top: 30px;
+}
+
+#omantel{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #6B7FF2;
+    border-radius: 20px;
+    text-align: center;
+    font: normal normal normal 56px/106px Droid Arabic Kufi;
+    color: #FFFFFF;
+    position: absolute;
+    top: -683px;
+    left: 420px;
+    width: 475px;
+    padding: 12px;
+
+}
+#omantelborder{
+    background: #BDC5F2 0% 0% no-repeat padding-box;
+    border: 1px solid #6B7FF2;
+    border-radius: 20px;
+}
+
+#omantelborder img{
+    padding-top: 40px;
+}
+#omantelborder a{
+    width:150px;
+    background: #F22727 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    font: normal normal normal 30px/76px Droid Arabic Kufi;
+    color: #FFFFFF;
+}
+
+#ooredoo{
+    background: #2745F2 0% 0% no-repeat padding-box;
+    border: 1px solid #415CF2;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font: normal normal normal 56px/106px Droid Arabic Kufi;
+    height: 400px;
+    top: -600px;
+    left: 895px;
+    position: absolute;
+
+}
+#ooredoo img{
+    padding-top: 30px;
+}
+
+#VodOO{
+    position: relative;
+
+}
+h5{
+    padding-top: 20px;
+}
+
+.confidentB{
+    background: url(../images/2040confidentB.png) no-repeat;
+
+    background-size: cover;
+    height: 800px;
+    margin-top: 70px;
+
+}
+
+
+
+.logopic{
+    width: 320px;
+    height: 100px;
+    padding-top: 25px;
+}
+.icoon{
+
+    text-align: right
+}
+.forend a{
+    font:normal normal normal 35px/70px Droid Arabic Kufi;
+    font-size: 20px;
+    text-align: right;
+    width: 200px;
+    height: 40px;
+    color: white;
+
+    margin: 0;
+}
+
+footer{
+    margin: 0;
+}
+
+
+
+
+*{
+    box-sizing:border-box;
+}
+
+
+@media screen and (max-width:520px){
+    .main{
+
+        border-bottom: 2px solid white;
+        font-weight: bolder;
+        color:white !important; /*!important will do over write */
+        width: 100%;
+    }
+
+    ul{
+        flex-direction: column-reverse;
+    }
+    .imglogo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .backGI{
+        background: url(../images/TRABULDING.jpg) no-repeat;
+        background-size: initial;
+        height: 551px;
+
+    }
+
+    .TopParagra{
+        top: 100px;
+        left: -220px;
+        height: 110px;
+        font: normal normal normal 38px/28px Droid Arabic Kufi;
+        color: #2745F2;
+        text-shadow: 0px 3px 6px #FFFFFF;
+    }
+    .Confident{
+        top: 216px;
+        left: 100px;
+        font: normal normal normal 38px/28px Droid Arabic Kufi;
+        color: #2745F2;
+    }
+
+    .whoAreWe {
+        font: normal normal normal 30px/20px Droid Arabic Kufi;
+        top: 208px;
+        left: 50px;
+        height: 50px;
+        background: #2745F2;
+        border:none;
+        border-radius: 7px;
+        text-align: center;
+        color: white;
+    }
+
+    .inner h3{
+        padding-right:   30px;
+        font: normal normal normal 25px/27px Droid Arabic Kufi;
+    }
+
+    .icon{
+        font-size: 10px;
+
+        padding-left: 10px;
+    }
+
+    #Activity:hover + .hide {
+        font-size: 10px;
+        color: white;
+
+    }
+
+    #CONTAINER1{
+        left:-20px;
+    }
+
+    #provider{
+        width: 475px;
+        height: 810px;
+        position: relative;
+
+    }
+
+    .txt2{
+        font: normal normal normal 30px/45px Droid Arabic Kufi;
+    }
+
+
+
+}
+
+
+
+
